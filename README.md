@@ -116,6 +116,100 @@ public class Helloworld {
 }
 ```
 
+---
+# 값 재입력 바람.
+
+
+[과제 3.]
+
+https://www.acmicpc.net/problem/9498
+
+
+package wonder;
+
+import java.util.Scanner;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int value;
+		Scanner sc_v = new Scanner(System.in);
+		value = sc_v.nextInt();
+
+		if(value>=90) System.out.println("A");
+		else if(value>=80) System.out.println("B");
+		else if(value>=70) System.out.println("C");
+		else if(value>=60) System.out.println("D");
+		else System.out.println("F");
+		
+	}
+
+}
+
+
+
+
+[과제 4.]
+
+https://www.acmicpc.net/problem/10809
+
+<정리 요망>
+
+
+package wonder;
+
+import java.util.Scanner;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str;
+		//String[] str_array;
+		Scanner sc_v = new Scanner(System.in);
+		str = sc_v.nextLine();
+		//str_array = str.split("");
+		
+		/*for(int i=0;i<str.length();i++)
+			System.out.println(str_array[i]);
+		*/
+		int[] count = new int[27];
+		for(int i=0;i<27;i++) count[i]=-1;
+		
+		for(int i=1;i<27;i++) {
+				//System.out.print(count[i]);
+				//System.out.print(' ');
+				
+		}
+		
+		int xx = str.charAt(0);
+		//System.out.print(xx);
+		
+		
+		
+		for(int i=0;i<str.length();i++) {
+			int x = str.charAt(i);
+			if(count[x-96]==-1) count[x-96]=i;
+		}
+		
+		for(int i=1;i<27;i++) System.out.print(count[i] + " ");
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
