@@ -40,7 +40,7 @@ Scanner sc = new Scanner(System.in); // 공간을 할당해준다.
 
 https://www.acmicpc.net/problem/1000
 
-
+``` java
 package wonder;
 
 import java.util.Scanner;
@@ -59,7 +59,7 @@ public class Helloworld {
 	}
 
 }
-
+```
 
 		
 
@@ -67,7 +67,7 @@ public class Helloworld {
 
 문자열을 받아보자.
 
-
+``` java
 package wonder;
 
 import java.util.Scanner;
@@ -86,13 +86,36 @@ public class Helloworld {
 	}
 
 }
-
+```
 
 
 
 [과제 2.]
 
 https://www.acmicpc.net/problem/1271
+
+``` java
+package wonder;
+
+import java.util.Scanner;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//Scanner sc = new Scanner(System.in);
+		//String data = sc.nextLine();
+		//System.out.println(data);
+		
+		System.out.print("강한친구 대한육군\n"
+				+ "강한친구 대한육군");
+	}
+
+}
+```
+
 
 
 
