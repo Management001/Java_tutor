@@ -124,7 +124,7 @@ public class Helloworld {
 
 https://www.acmicpc.net/problem/9498
 
-
+``` java
 package wonder;
 
 import java.util.Scanner;
@@ -148,7 +148,7 @@ public class Helloworld {
 
 }
 
-
+```
 
 
 [과제 4.]
@@ -156,7 +156,7 @@ public class Helloworld {
 https://www.acmicpc.net/problem/10809
 
 <정리 요망>
-
+``` java
 
 package wonder;
 
@@ -201,7 +201,7 @@ public class Helloworld {
 }
 
 
-
+```
 
 
 
